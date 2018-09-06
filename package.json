@@ -1,0 +1,20 @@
+{
+  "name": "giveaway",
+  "version": "1.0.0",
+  "description": "This is a simple web site for give away things that I don't need them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krekalidis/giveaway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krekalidis/giveaway/issues"
+  },
+  "homepage": "https://github.com/krekalidis/giveaway#readme",
+  "devDependencies": {}
+}

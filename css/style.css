@@ -1,0 +1,64 @@
+nav.nav-bg {
+    background-color: #07162f;
+}
+
+section {
+    padding: 90px 0;
+}
+
+section h2.section-heading {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+section h3.section-subheading {
+    color: #999;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+section#items .giveaway-item {
+    margin-bottom: 30px;
+}
+
+section#items .giveaway-item .item-caption {
+    padding: 15px 0;
+}
+
+section#items .giveaway-item .item-caption h4 {
+    font-size: 1.125rem;
+}
+
+section#items .giveaway-item .item-link {
+    display: block;
+    position: relative;
+    max-width: 320px;
+}
+
+section#items .giveaway-item .item-link .item-hover {
+    background: rgb(238, 95, 222);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+section#items .giveaway-item .item-link .item-hover:hover {
+    opacity: 0.9;
+}
+
+section#items .giveaway-item .item-link .item-hover .item-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 3rem;
+    text-align: center;
+    top: 50%;
+    margin-top: -30px;
+    color: #07162f;
+  }

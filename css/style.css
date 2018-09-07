@@ -62,3 +62,13 @@ section#items .giveaway-item .item-link .item-hover .item-hover-content {
     margin-top: -30px;
     color: #07162f;
   }
+
+  .btn-primary {
+      background-color: rgb(238, 95, 222);
+      border-color: rgb(238, 95, 222);
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(127, 51, 119);      
+    border-color: rgb(127, 51, 119);
+  }

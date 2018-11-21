@@ -63,20 +63,29 @@ section#items .giveaway-item .item-link .item-hover .item-hover-content {
     color: #07162f;
   }
 
-  .footer {    
+.footer {    
     background-color: #07162f;  
     color: #fff;  
     height: 60px;
     line-height: 60px; 
     width: 100%;
-  }
+}
 
-  .btn-primary {
+.btn-primary {
       background-color: rgb(238, 95, 222);
       border-color: rgb(238, 95, 222);
-  }
+}
 
-  .btn-primary:hover {
+.btn-primary:hover, 
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active {
     background-color: rgb(227, 94, 213);      
     border-color: rgb(127, 51, 119);
-  }
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 .2rem rgba(204,81,190,.5);
+}
